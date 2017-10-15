@@ -1,0 +1,83 @@
+#!/bin/sh
+
+#killall -9 gifview
+#feh --bg-fill "$HOME/Pictures/butterfly.jpg"
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/print/
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/Colors/
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/Touhou/
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/Chiptunes/
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/Floam/
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/nice-real/
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/glitch/
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/Impressionism/
+#feh --recursive --randomize --bg-fill ~/Pictures/Wallpaers/
+
+
+
+choice="$1"
+
+case "$choice" in
+
+1) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Chiptune/' -t
+;;
+
+2) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/glitch/' -t
+;;
+
+3) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Colors/' -t
+;;
+
+4) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Touhou/' -t
+;;
+
+5) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Floam/' -t
+;;
+
+6) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Impressionism/' -t
+;;
+
+7) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/print/' -t
+;;
+
+8) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Pastel/' -t
+;;
+
+9) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/dream/' -t
+;;
+
+10) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Mandelbrot/' -t
+;;
+
+11) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Miscolour/' -t
+;;
+
+12) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/abstractions/' -t
+;;
+
+13) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Winter/' -t
+;;
+
+14) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Minerals/' -t
+;;
+
+15) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Hallow/' -t
+;;
+
+16) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Forestry/' -t
+;;
+
+17) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Depreciation' -t
+;;
+
+*) if [ -z "$choice" ]; then
+	echo "No number given"
+else
+	echo "Not a set number"
+fi
+
+;;
+
+esac
+
+
+#bash ~/wal-set
