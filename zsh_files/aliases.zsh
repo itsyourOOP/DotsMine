@@ -50,6 +50,8 @@ bt() {
 
 # from old
 alias yget="yaourt -S"
+alias yrem="yaourt -R"
+alias yupdate="yaourt -Syuu && pacuar -u"
 alias up='cd ..'
 alias weather="curl wttr.in/Pittsburgh"
 alias moonPhase="curl wttr.in/Moon"
