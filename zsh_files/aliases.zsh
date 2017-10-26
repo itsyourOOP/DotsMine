@@ -51,7 +51,7 @@ bt() {
 # from old
 alias yget="yaourt -S"
 alias yrem="yaourt -R"
-alias yupdate="yaourt -Syuu && pacuar -u"
+alias yupdate="yaourt -Syuu && pacaur -u"
 alias up='cd ..'
 alias weather="curl wttr.in/Pittsburgh"
 alias moonPhase="curl wttr.in/Moon"
@@ -64,7 +64,7 @@ alias pip2="sudo pip"
 
 #from new
 alias fireplace='~/sources/fireplace/fireplace'
-alias set_bg='~/DotsMine/set_bg'
+alias set-bg='~/DotsMine/scripts/set-bg'
 alias edit_alias='nano ~/DotsMine/zsh_files/aliases.zsh'
 alias source_alias='source ~/DotsMine/zsh_files/aliases.zsh && echo "alias sourced"'
 alias es_alias='edit_alias && source_alias'
@@ -74,3 +74,9 @@ alias su_nano='sudo nano'
 alias rtv='rtv --enable-media'
 alias git='hub'
 alias edit_zshrc='nano ~/DotsMine/zsh_files/.zshrc'
+alias accessThoth='ssh azh15@thoth.cs.pitt.edu'
+alias editWallpaper='nano ~/DotsMine/scripts/set_bg'
+alias logisim='java -jar ~/College/Sophomore\ Year/Assembly\ Language/Software/logisim-generic-2.7.1.jar'
+alias MarsMips='java -jar ~/College/Sophomore\ Year/Assembly\ Language/Software/Mars4_5_0447c.jar'
+alias polybar_config='nano ~/.config/polybar/config'
+alias Digital='java -jar ~/College/Sophomore\ Year/Assembly\ Language/Software/Digital/Digital.jar'

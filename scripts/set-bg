@@ -16,6 +16,11 @@
 
 choice="$1"
 
+if [ "$choice" = "rand" ]; then
+	choice=$(((RANDOM % 17 ) + 1 ))
+fi
+
+
 case "$choice" in
 
 1) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Chiptune/' -t
@@ -79,5 +84,7 @@ fi
 
 esac
 
+echo "choice is $choice" >> ~/set_bg.log
 
 #bash ~/wal-set
+wal_steam
