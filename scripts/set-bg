@@ -12,7 +12,7 @@
 #feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/Impressionism/
 #feh --recursive --randomize --bg-fill ~/Pictures/Wallpaers/
 
-
+hm="/home/macrosscerebral"
 
 choice="$1"
 
