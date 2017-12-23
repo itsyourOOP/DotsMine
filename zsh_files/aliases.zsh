@@ -84,3 +84,4 @@ alias keep="npm start --prefix '~/sources/keep'"
 alias sftpThoth='sftp azh15@thoth.cs.pitt.edu'
 alias edit-Mopidy-conf='su_nano /etc/mopidy/mopidy.conf'
 alias rtv='rtv --enable-media'
+alias scpThoth='scp azh15@thoth.cs.pitt.edu'
