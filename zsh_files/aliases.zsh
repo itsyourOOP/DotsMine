@@ -60,7 +60,7 @@ alias poweroff="sudo shutdown -h now"
 alias mpsyt="sudo mpsyt"
 alias orochi="sudo orochi"
 alias whenPacmanActsUp="sudo rm /var/lib/pacman/db.lck"
-alias pip2="sudo pip"
+alias pip2="sudo pip2"
 
 #from new
 alias fireplace='~/sources/fireplace/fireplace'
@@ -85,3 +85,6 @@ alias sftpThoth='sftp azh15@thoth.cs.pitt.edu'
 alias edit-Mopidy-conf='su_nano /etc/mopidy/mopidy.conf'
 alias rtv='rtv --enable-media'
 alias scpThoth='scp azh15@thoth.cs.pitt.edu'
+alias pip3="sudo pip3"
+alias cp-Mopidy-conf='cp /etc/mopidy/mopidy.conf ~/.config/mopidy/mopidy.conf && echo "config copied to local"'
+alias alias-list='cat ~/DotsMine/zsh_files/aliases.zsh'

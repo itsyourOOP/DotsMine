@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if pgrep -x "polybar" > /dev/null
+then
+	pkill polybar
+	polybar -c ~/.config/polybar/config -q example & 
+else
+	polybar -c ~/.config/polybar/config -q example & 
+fi
+
+
+	

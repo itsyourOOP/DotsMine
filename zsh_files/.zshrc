@@ -213,7 +213,7 @@ zstyle ':completion:*' use-cache on
 zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX + $#SUFFIX) / 3 )) )'
 
 #Wal!
-(wal -r &)
+(wal -R &)
 
 #toilet -f circle -F gay "V A P O R  W A V E" && neofetch
 
@@ -225,3 +225,5 @@ export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
 echo "you might not be the right one, you might not be the right kind" | cowsay | lolcat
 
 echo "it's like a little angry agitated thing inside the chest" | lolcat
+
+

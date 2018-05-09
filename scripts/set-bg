@@ -12,7 +12,7 @@
 #feh --recursive --randomize --bg-fill ~/Pictures/Wallpapers/Impressionism/
 #feh --recursive --randomize --bg-fill ~/Pictures/Wallpaers/
 
-hm="/home/macrosscerebral"
+#hm="/home/macrosscerebral"
 
 choice="$1"
 
@@ -24,54 +24,105 @@ fi
 case "$choice" in
 
 1) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Chiptune/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 2) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/glitch/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 3) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Colors/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 4) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Touhou/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 5) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Floam/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 6) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Impressionism/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 7) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/print/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 8) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Pastel/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 9) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/dream/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 10) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Mandelbrot/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 11) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Miscolour/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 12) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/abstractions/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 13) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Winter/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 14) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Minerals/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 15) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Hallow/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 16) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Forestry/' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 17) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Depreciation' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
 *) if [ -z "$choice" ]; then
@@ -84,7 +135,4 @@ fi
 
 esac
 
-echo "choice is $choice" >> ~/set_bg.log
-
 #bash ~/wal-set
-wal_steam
