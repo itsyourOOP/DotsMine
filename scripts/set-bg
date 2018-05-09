@@ -17,7 +17,7 @@
 choice="$1"
 
 if [ "$choice" = "rand" ]; then
-	choice=$(((RANDOM % 17 ) + 1 ))
+	choice=$(((RANDOM % 18 ) + 1 ))
 fi
 
 
@@ -119,7 +119,13 @@ echo "choice is $choice" >> ~/set_bg.log
 /home/macrosscerebral/DotsMine/scripts/polyReload
 ;;
 
-17) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Depreciation' -t
+17) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Deprecation' -t
+wal_steam
+echo "choice is $choice" >> ~/set_bg.log
+/home/macrosscerebral/DotsMine/scripts/polyReload
+;;
+
+18) wal -i '/home/macrosscerebral/Pictures/Wallpapers/WalCompatible/Space' -t
 wal_steam
 echo "choice is $choice" >> ~/set_bg.log
 /home/macrosscerebral/DotsMine/scripts/polyReload
