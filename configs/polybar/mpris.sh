@@ -11,7 +11,8 @@ fi
 
 # Foreground color formatting tags are optional
 if [[ $player_status = "Playing" ]]; then
-    echo "%{F#D08770}$icon $metadata"       # Orange when playing
+    #echo "%{F#D08770}$icon $metadata"       # Orange when playing
+    echo "${xrdb:*.color6}$icon $metadata"
 elif [[ $player_status = "Paused" ]]; then
     echo "%{F#65737E}$icon $metadata"       # Greyed out info when paused
 else

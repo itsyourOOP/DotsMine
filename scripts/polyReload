@@ -1,12 +1,23 @@
 #!/bin/sh
 
-if pgrep -x "polybar" > /dev/null
-then
+check_process=( "polybar" "bspwm" )
+should_be_two=0
+
+
+for p in "${check_process[@]}"; do
+	if pgrep "$p" > /dev/null; then
+		(( should_be_two++ ))
+	fi
+done
+
+if (( $should_be_two == 2 )); then
 	pkill polybar
-	polybar -c ~/.config/polybar/config -q example & 
+	echo "polyReload: polybar has been restarted with the new color scheme"
+	polybar -c ~/.config/polybar/config -q example &
 else
-	polybar -c ~/.config/polybar/config -q example & 
+	echo "polyReload: polybar has been started with the new color scheme"
+	polybar -c ~/.config/polybar/config -q example &
 fi
 
 
-	
+

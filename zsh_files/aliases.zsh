@@ -51,7 +51,7 @@ bt() {
 # from old
 alias yget="yaourt -S"
 alias yrem="yaourt -R"
-alias yupdate="yaourt -Syuu && pacaur -u"
+alias yupdate="yaourt -Syuu && pacaur -u && orphans"
 alias up='cd ..'
 alias weather="curl wttr.in/Pittsburgh"
 alias moonPhase="curl wttr.in/Moon"
@@ -83,8 +83,7 @@ alias Digital='java -jar ~/College/Sophomore\ Year/Assembly\ Language/Software/D
 alias keep="npm start --prefix '~/sources/keep'"
 alias sftpThoth='sftp azh15@thoth.cs.pitt.edu'
 alias edit-Mopidy-conf='su_nano /etc/mopidy/mopidy.conf'
-alias rtv='rtv --enable-media'
 alias scpThoth='scp azh15@thoth.cs.pitt.edu'
 alias pip3="sudo pip3"
-alias cp-Mopidy-conf='cp /etc/mopidy/mopidy.conf ~/.config/mopidy/mopidy.conf && echo "config copied to local"'
+alias cp-Mopidy-conf='cp /etc/mopidy/mopidy.conf ~/.config/mopidy/mopidy.conf && echo "root config copied to local"'
 alias alias-list='cat ~/DotsMine/zsh_files/aliases.zsh'
