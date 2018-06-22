@@ -118,7 +118,6 @@ label-indicator-underline = ${colors.green}
 [module/filesystem]
 type = internal/fs
 interval = 25
-
 mount-0 = /
 
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
