@@ -1,7 +1,8 @@
 #!/bin/sh
+: <<COMMENTBLOCK
 
 check_process=( "polybar" "bspwm" )
-check_not_running=("gnome-shell" "xfce4-session")
+check_not_running=("gnome-shell" "xfce4-session" "fvwm")
 should_be_two=0
 
 
@@ -11,6 +12,7 @@ for p in "${check_process[@]}"; do
 	fi
 done
 
+
 if (( $should_be_two == 2 )); then
 	pkill polybar
 	echo "polyReload: polybar has been restarted with the new color scheme"
@@ -19,10 +21,21 @@ else
 	if pgrep "gnome-shell" > /dev/null; then
 		echo "polyReload: since gnome is running, polybar will not be loaded"
 	else
-		echo "polyReload: polybar has been started with the new color scheme"
-		polybar -c ~/.config/polybar/config -q example &
+		if pgrep "fvwm" > dev/null; then
+			echo "polyReload: since fvwm is running, polybar will not be loaded"
+		else
+			echo "polyReload: polybar has been started with the new color scheme"
+			polybar -c ~/.config/polybar/config -q example &
+		fi
 	fi
+
 fi
 
+COMMENTBLOCK
 
+wal-discord -b wal
+echo "wal-discord: Set Discord colors"
 
+echo "Oomox reloading Spotify with new colors"
+/home/macrosscerebral/DotsMine/scripts/oomox-spotify-colors.sh
+echo "Oomox has finished reloading Spotify colors"
