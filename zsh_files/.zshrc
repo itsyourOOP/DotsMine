@@ -222,8 +222,8 @@ zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX + $#SU
 #toilet -f 3D-ASCII.flf --metal wow | lolcat
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
 
-echo "you might not be the right one, you might not be the right kind" | cowsay | lolcat
+echo "fuck man you need help" | cowsay | lolcat
 
-echo "it's like a little angry agitated thing inside the chest" | lolcat
+echo "like yesterday" | lolcat
 
 

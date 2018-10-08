@@ -1,0 +1,498 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scripts/set-bg",
+			"settings":
+			{
+				"buffer_size": 4349,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/macrosscerebral/dotfiles/aliases.zsh",
+			"settings":
+			{
+				"buffer_size": 1644,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/PackageDev/Package/Convert to ....sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				]
+			],
+			[
+				"Packages/PackageDev/Package/Convert to ....sublime-build",
+				"Property List"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 401.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"calculate",
+				"Calculate"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packages",
+				"Package Control: Discover Packages"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 401.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/macrosscerebral/DotsMine",
+		"/home/macrosscerebral/DotsMine/configs",
+		"/home/macrosscerebral/DotsMine/configs/polybar",
+		"/home/macrosscerebral/DotsMine/scripts",
+		"/home/macrosscerebral/DotsMine/zsh_files"
+	],
+	"file_history":
+	[
+		"/home/macrosscerebral/DotsMine/x_files/.xinitrc",
+		"/home/macrosscerebral/DotsMine/scripts/polyReload",
+		"/home/macrosscerebral/.config/sublime-text-3/Packages/User/romanesque.YAML-tmLanguage",
+		"/home/macrosscerebral/edd",
+		"/home/macrosscerebral/echo",
+		"/home/macrosscerebral/.local/share/nautilus/scripts/Create ISO",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Second Semester/yes/Comp. Org. and Assem. Lang./macros/push_pop.asm",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Second Semester/yes/Comp. Org. and Assem. Lang./examples/mips1.asm",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Second Semester/yes/World History/Discussion Questions/2/.~lock.Discussion Questions Week 2.docx#",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Second Semester/yes/Comp. Org. and Assem. Lang./Labs/Lab 1/azh15_lab1.zip",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/First Semester/Assembly Language/labs/Lab 2/led_keypad.asm",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Second Semester/yes/Comp. Org. and Assem. Lang./02_CS0447_Architecture.pdf",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Second Semester/yes/Comp. Org. and Assem. Lang./Mars_2191_a.jar",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Second Semester/yes/Comp. Org. and Assem. Lang./Assembly Language.sublime-project",
+		"/home/macrosscerebral/DotsMine/scripts/MarsMips",
+		"/home/macrosscerebral/coding/C/sum_of_digits.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/First Semester/Systems Software/projects/project 5/myshell.c",
+		"/home/macrosscerebral/Desktop/mugen/MM-CGOF-1.1-720p-StagesPreviews/chars/satori_hyV2/satori_hyV2.def",
+		"/home/macrosscerebral/Desktop/mugen/MM-CGOF-1.1-720p-StagesPreviews/chars/parsee_hy/parsee.def",
+		"/home/macrosscerebral/Desktop/mugen/MM-CGOF-1.1-720p-StagesPreviews/chars/parsee_hy/parsee.cmd",
+		"/home/macrosscerebral/Desktop/mugen/MUGENBattleClimaX/data/MugenClimax/VP_MBCStage.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/stages/Pandaforest.def",
+		"/home/macrosscerebral/Desktop/mugen/MUGENBattleClimaX/data/mugen.cfg",
+		"/home/macrosscerebral/Desktop/mugen/MUGENBattleClimaX/data/systemHD.def",
+		"/home/macrosscerebral/Desktop/mugen/MM-CGOF-1.1-720p-StagesPreviews/data/mugen.cfg",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/readme.txt",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/data/system.def",
+		"/home/macrosscerebral/Desktop/mugen/MUGENBattleClimaX/chars/satori_hyV2/satori_hyV2.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/data/mugen.cfg",
+		"/home/macrosscerebral/Desktop/mugen/MUGENBattleClimaX/readme.txt",
+		"/home/macrosscerebral/.cache/.fr-4klNg0/bitmugen1.1/data/system.def",
+		"/home/macrosscerebral/.cache/.fr-FwfFRe/bitmugen1.1/readme.txt",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/data/biwinning/data/8.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/data/MUGENasbrhdstare/readme.txt",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/data/144slot/data/system.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/chars/orin_hy/orin.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/chars/kokoro_hy/kokoro.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/chars/Koishi_RP/Koishi_RP.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/chars/satori_hyV2/satori_hyV2.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/chars/parsee_hy/parsee.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/chars/sunny_hy/sunny.def",
+		"/home/macrosscerebral/Desktop/mugen/mugen-1.1b1/data/144slot/data/select.def",
+		"/run/media/macrosscerebral/EMUNAND9SD/ctroller/ctroller.cfg",
+		"/home/macrosscerebral/Documents/3ds/Ultimate NES VC Injector/Rock4mi_100/readme_e.txt",
+		"/home/macrosscerebral/Documents/3ds/Ultimate NES VC Injector/Rockman4BCAS/read me.txt",
+		"/home/macrosscerebral/coding/C/helloworld.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/First Semester/Systems Software/projects/project 4 (the good one)/rps.c",
+		"/usr/lib/systemd/system/mopidy.service",
+		"/home/macrosscerebral/DotsMine/scripts/set-bg-bkup",
+		"/home/macrosscerebral/Documents/For Music stuff/pick.mml",
+		"/home/macrosscerebral/game coding/GB/Source Codes/pokered/home.asm",
+		"/home/macrosscerebral/game coding/GB/Source Codes/gbcomp/DECOMP.ASM",
+		"/home/macrosscerebral/Playlists/asmr.m3u",
+		"/home/macrosscerebral/Playlists/calmradio-debussy.m3u",
+		"/home/macrosscerebral/DotsMine/README.md",
+		"/home/macrosscerebral/.cache/.fr-pn26uD/README.md",
+		"/home/macrosscerebral/Playlists/debussy.pls",
+		"/home/macrosscerebral/Playlists/classicalpiano-lute.m3u",
+		"/home/macrosscerebral/Playlists/[Radio Streams].m3u8",
+		"/home/macrosscerebral/.config/sublime-text-3/Packages/MMLX/MMLX.tmLanguage",
+		"/home/macrosscerebral/.config/sublime-text-3/Packages/MMLX/info.plist",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 2/azh15/mystrings",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 2/azh15/my_strings.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 2/azh15/mystrings.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/lab2b_true/lab2b.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 4 (the good one)/rps.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/lab_multi/Makefile",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/lab_multi/malloc.h",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/lab_multi/main.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/lab_multi/tree.h",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/lab_multi/tree.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/shared_object/mystr.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/shared_object/main.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/pthread_dir/pthread.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 4 (the good one)/rps_ctrl.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 4 (the good one)/rps_dev.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 4 (the good one)/hello_dev/hello_dev.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 4 (the good one)/Makefile",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/lab_multi/lab_multi.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 4 (the good one)/Makefile.debian",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/cs0449-2181-lab2.pdf",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 1/rps.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 3/mallocdrv.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 3/mymalloc.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/labs/lab2b.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 3/mallocdrv2.c",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 3/mymalloc.h",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 3/mallocdrv.out",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 3/mallocdrv2.out",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 2/mystrings.c",
+		"/home/macrosscerebral/dotfiles/aliases.zsh",
+		"/home/macrosscerebral/DotsMine/zsh_files/aliases.zsh",
+		"/home/macrosscerebral/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Systems Software/projects/project 1/cs0449-2181-project1.pdf",
+		"/home/macrosscerebral/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/macrosscerebral/workspace/Assignment4/cs445/a4/Song.java",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Assembly Language/push_pop.asm",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Assembly Language/projects/project1/project1.asm",
+		"/home/macrosscerebral/Documents/College/Sophomore Year/Assembly Language/project1.asm"
+	],
+	"find":
+	{
+		"height": 34.8953140578
+	},
+	"find_in_files":
+	{
+		"height": 616.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scripts/set-bg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1581,
+								1581
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 254,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"rainbowth.lispy": false,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 665.004985045,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/macrosscerebral/dotfiles/aliases.zsh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 117,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"rainbowth.lispy": false,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 356.929212363,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.8953140578
+	},
+	"input":
+	{
+		"height": 224.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 56.0
+	},
+	"pinned_build_system": "",
+	"project": "DotsMine.sublime-project",
+	"replace":
+	{
+		"height": 65.8025922233
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 501.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/College/Sophomore Year/Second Semester/yes/Comp. Org. and Assem. Lang./Assembly Language.sublime-project"
+			]
+		],
+		"width": 381.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

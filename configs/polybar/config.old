@@ -57,9 +57,9 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = "FontAwesome:pixelsize=10;0"
 
-modules-left = bspwm powermenu
-modules-center = mpd music
-modules-right = xbacklight xkeyboard volume wlan battery date
+modules-left = bspwm
+modules-center = music
+modules-right = pkg xbacklight xkeyboard volume memory cpu wlan battery date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -143,20 +143,54 @@ label-empty = %index%
 label-empty-foreground = ${colors.gray}
 label-empty-padding = 2
 
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+; Only show workspaces on the same output as the bar
+;pin-workspaces = true
+
+label-mode-padding = 2
+label-mode-foreground = #000
+label-mode-background = ${colors.primary}
+
+; focused = Active workspace on focused monitor
+label-focused = %index%
+label-focused-background = ${module/bspwm.label-focused-background}
+label-focused-underline = ${module/bspwm.label-focused-underline}
+label-focused-padding = ${module/bspwm.label-focused-padding}
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %index%
+label-unfocused-padding = ${module/bspwm.label-occupied-padding}
+
+; visible = Active workspace on unfocused monitor
+label-visible = %index%
+label-visible-background = ${self.label-focused-background}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+; urgent = Workspace with urgency hint set
+label-urgent = %index%
+label-urgent-background = ${module/bspwm.label-urgent-background}
+label-urgent-padding = ${module/bspwm.label-urgent-padding}
+
 [module/mpd]
 type = internal/mpd
-format-online = <label-song> 
+format-online = <label-song> <icon-prev> <toggle> <icon-next>
 format-offline = "mopidy is sleeping"
 
 label-active-font = 3
 
-#icon-prev = 
-#icon-stop = 
-#icon-play =  
-#icon-pause = 
-#icon-next = 
+icon-prev = 
+icon-stop = 
+icon-play =  
+icon-pause = 
+icon-next = 
 
-label-song-maxlen = 45
+label-song-maxlen = 25
 label-song-ellipsis = true
 
 [module/xbacklight]
@@ -169,10 +203,10 @@ bar-width = 10
 bar-indicator = |
 bar-indicator-foreground = #ff
 bar-indicator-font = 2
-bar-fill = |
+bar-fill = ─
 bar-fill-font = 2
 bar-fill-foreground = $(colors.fg)
-bar-empty = -
+bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.gray}
 
@@ -203,7 +237,7 @@ interface = wlp1s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-underline = ${colors.green}
+format-connected-underline = #9f78e1
 label-connected = %essid%
 
 format-disconnected =
@@ -247,7 +281,7 @@ time-alt = %I:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.gray}
-format-underline = ${colors.red}
+format-underline = #0a6cf5
 
 label = %date% %time%
 
@@ -263,19 +297,19 @@ format-muted-foreground = ${colors.gray}
 label-muted = sound muted
 
 bar-volume-width = 10
-bar-volume-foreground-0 = ${colors.yellow}
-bar-volume-foreground-1 = ${colors.red}
-bar-volume-foreground-2 = ${colors.red}
-bar-volume-foreground-3 = ${colors.red}
-bar-volume-foreground-4 = ${colors.red}
-bar-volume-foreground-5 = ${colors.green}
-bar-volume-foreground-6 = ${colors.blue}
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
 bar-volume-gradient = false
 bar-volume-indicator = |
 bar-volume-indicator-font = 2
-bar-volume-fill = |
+bar-volume-fill = ─
 bar-volume-fill-font = 2
-bar-volume-empty = -
+bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.gray}
 
@@ -286,7 +320,7 @@ adapter = AC0
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = ${colors.yellow}
+format-charging-underline = #ffb52a
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
