@@ -1,3 +1,3 @@
 #!/bin/bash
 
-java -jar ~/College/Sophomore\ Year/Second\ Semester/yes/Comp.\ Org.\ and\ Assem.\ Lang./Mars_2191_a.jar
+java -jar ~/College/Sophomore\ Year/Second\ Semester/yes/Comp.\ Org.\ and\ Assem.\ Lang./Mars_2191_a.jar &
