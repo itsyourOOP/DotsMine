@@ -58,7 +58,7 @@ font-2 = siji:pixelsize=10;1
 font-3 = "FontAwesome:pixelsize=10;0"
 
 modules-left = bspwm powermenu
-modules-center = mpd music
+modules-center = music
 modules-right = xbacklight xkeyboard volume wlan battery date
 
 tray-position = right
