@@ -97,7 +97,82 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#toilet -f 3D-ASCII.flf --metal wow | lolcat
+
+# Coloured man pages
+man() {
+	env LESS_TERMCAP_mb=$'\E[01;31m' \
+		LESS_TERMCAP_md=$'\E[01;38;5;74m' \
+		LESS_TERMCAP_me=$'\E[0m' \
+		LESS_TERMCAP_se=$'\E[0m' \
+		LESS_TERMCAP_so=$'\E[31;5;246m' \
+		LESS_TERMCAP_ue=$'\E[0m' \
+		LESS_TERMCAP_us=$'\E[04;38;5;146m' \
+		man "$@"
+}
+
+export PATH=$PATH:/$HOME/.composer/vendor/bin:.vendor/bin/:$HOME/bin:/usr/local/bin
+
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+PATH="/root/.gem/ruby/2.3.0/bin:$PATH"
+
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
+
 export GBDKDIR=/opt/gbdk/
+
+# NPM packages
+NPM_PACKAGES="${HOME}/.npm-packages"
+NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+PATH="$NPM_PACKAGES/bin:$PATH"
+# Unset manpath so we can inherit from /etc/manpath via the `manpath`
+# # command
+unset MANPATH # delete if you already modified MANPATH elsewhere in your config
+MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+
+
+#!/bin/bash
+# add this to your bashrc/zshrc
+function _current_epoch {
+  echo "$(($(date +%s) / 60 / 60 / 24))"
+}
+
+function _check_updates {
+  (
+    flock -n 9 || return # one concurrent update process at the time
+    local ignored_pkgs="^linux"
+    #local updates=`wc -l < /var/log/pacman-updates.log`
+    local updates=`grep -Ev $ignored_pkgs /var/log/pacman-updates.log | wc -l`
+    if [ $updates -gt 0 ]; then
+      echo -n "There are $updates updates. Upgrade? (y/n) [n] "
+      read line
+      if [ "$line" = Y ] || [ "$line" = y ]; then
+        yaourt -Syu --aur
+        pacman -Qu | sudo tee /var/log/pacman-updates.log >/dev/null
+      fi
+    fi
+    echo "$(_current_epoch)" > $HOME/.pacman-update
+  ) 9> ~/.pacman-update.lck
+}
+
+if [[ $- == *i* ]] && # only interactive shells
+  [ -e /var/log/pacman-updates.log ] && # only after first update
+  [ ! -e /var/lib/pacman/db.lck ]; then # not if pacman is running
+  if [ -e .pacman-update ]; then
+    read last_epoch < $HOME/.pacman-update
+    if [[ -n "$last_epoch" ]]; then
+      if [ $(($(_current_epoch) - $last_epoch)) -ge 1 ]; then
+        _check_updates
+      fi
+    fi
+    unset last_epoch
+  else
+    _check_updates
+  fi
+fi
+
+
+
+
 source ~/aliases.zsh
 
 wal -R
