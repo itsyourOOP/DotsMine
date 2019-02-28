@@ -1,0 +1,1 @@
+export GBDKDIR=/opt/gbdk/

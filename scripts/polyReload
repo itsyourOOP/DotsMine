@@ -33,9 +33,9 @@ fi
 
 COMMENTBLOCK
 
-wal-discord -b wal
+wal-discord -b wal -t
 echo "wal-discord: Set Discord colors"
 
 echo "Oomox reloading Spotify with new colors"
-/home/macrosscerebral/DotsMine/scripts/oomox-spotify-colors.sh
+/home/macrossneurology/DotsMine/scripts/oomox-spotify-colors.sh
 echo "Oomox has finished reloading Spotify colors"
