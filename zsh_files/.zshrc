@@ -177,6 +177,8 @@ source ~/aliases.zsh
 
 wal -R
 
-cowsay "you need to help yourself" | lolcat 
+#"YOU NEED TO HELP YOURSELF" | lolcat
+toilet -t -f 6x10 "you need to help yourself" | lolcat
 
 source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+set -o noclobber
