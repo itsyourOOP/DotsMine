@@ -143,3 +143,157 @@ cd Lecture\ 04/
 dir
 unoconv -f pdf 04\ -\ C\ -\ Structs\,\ Enums\,\ Typedefs.pptx 
 unoconv
+up
+up
+up
+up
+nano ~/.bashrc
+chmod +x build.sh 
+./build.sh 14_qsort
+./build.sh 14_qsort.c
+./14_qsort 
+./build.sh 14_qsort.c
+./14_qsort 
+up
+cd lab\ 5/
+dir
+dir
+./build.sh lab5.c 
+chmod +x build.sh 
+up
+cd lab\ 5/
+dir
+./build.sh lab5.c 
+./build.sh lab5.c 
+./lab5 
+./build.sh lab5.c 
+./lab5 
+./build.sh lab5.c 
+./lab5 
+./build.sh lab5.c 
+./lab5 
+./build.sh lab5.c 
+./lab5 
+./build.sh lab5.c 
+./lab5 
+./build.sh lab5.c 
+./lab5 
+tar cvf azh15_lab5.tar lab5.c 
+dir
+tar tvf azh15_lab5.tar 
+gzip azh15_lab5.tar 
+dir
+edit_alias
+alias_list
+source_alias
+alias_list
+alias_list
+edit_alias
+es_alias
+alias_list 
+sshThoth
+./lab5 
+pico
+sshThoth
+sshThoth
+./testmystrings.sh /bin/ls
+cd cs449/
+./testmystrings.sh /bin/ls
+./testmystrings.sh /bin/ls
+./mystrings /bin/ls
+strings /bin/ls
+nano testmystrings.sh 
+nano strings.out 
+nano mystrings.out 
+./build.sh mystrings.c
+./mystrings /bin/ls
+./build.sh mystrings.c
+./build.sh mystrings.c
+./mystrings /bin/ls
+./build.sh mystrings.c
+./mystrings /bin/ls
+./build.sh mystrings.c
+./build.sh mystrings.c
+./build.sh mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+strings build.sh 
+strings less
+strings /bin/less
+dir
+./build.sh mystrings.c
+./build.sh mystrings.c
+./build.sh mystrings.c
+./build.sh mystrings.c
+./build.sh mystrings.c
+./mystrings /bin/ln
+strings /bin/ln
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+./build.sh mystrings.c
+./mystrings mystrings.c
+dir
+./build.sh mystrings.c
+./testmystrings.sh 
+./testmystrings.sh /bin/ls
+./testmystrings.sh /bin/less
+./mystrings /bin/ls
+./mystrings /bin/cmus
+./mystrings /bin/init 

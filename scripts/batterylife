@@ -1,0 +1,30 @@
+#! /bin/bash
+MIN=40
+MAX=80
+
+
+
+while true ; do
+
+unplugged=$(cat /sys/bus/acpi/drivers/battery/*/power_supply/BAT?/status|grep -i discharging)
+acpiout=$(acpi)
+if [ "$(echo $acpiout|grep -Po "[0-9]+(?=%)")" -le $MIN ]; then #Battery under low limit
+
+if  [ ! "$unplugged" == "" ]; then #unplugged
+
+notify-send "Battery under $MIN percent. Please plug in the adapter"
+
+fi
+elif [ "$(echo $acpiout|grep -Po "[0-9]+(?=%)")" -ge $MAX ]; then  #Battery over high limit
+
+if  [ "$unplugged" == "" ]; then #plugged
+
+notify-send "Battery above $MAX percent. Please remove the adapter"
+
+
+fi
+fi
+sleep 10 #Repeat every 10 seconds
+
+done
+
