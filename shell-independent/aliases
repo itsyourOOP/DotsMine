@@ -50,3 +50,4 @@ alias pip3="sudo pip3"
 alias cp-Mopidy-conf='cp /etc/mopidy/mopidy.conf ~/.config/mopidy/mopidy.conf && echo "root config copied to local"'
 alias alias_list='cat ~/DotsMine/shell-independent/aliases'
 #alias thatsHowDumbYouSound='echo "helloo~" | lolcat'
+alias memoir='m'
