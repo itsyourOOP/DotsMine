@@ -297,3 +297,11 @@ dir
 ./mystrings /bin/ls
 ./mystrings /bin/cmus
 ./mystrings /bin/init 
+links
+pstree
+exit
+zsh
+exit
+pstree
+zsh
+exit

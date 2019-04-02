@@ -51,3 +51,4 @@ alias cp-Mopidy-conf='cp /etc/mopidy/mopidy.conf ~/.config/mopidy/mopidy.conf &&
 alias alias_list='cat ~/DotsMine/shell-independent/aliases'
 #alias thatsHowDumbYouSound='echo "helloo~" | lolcat'
 alias memoir='m'
+alias du='cdu -idh'
