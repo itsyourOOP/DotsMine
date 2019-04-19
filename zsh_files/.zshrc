@@ -184,3 +184,6 @@ source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 set -o noclobber
 
 #rescuetime &
+echo "by the way, the C declaration program is 'cdecl'"
+#xdg-settings set default-web-browser firefox.desktop
+export BROWSER='/usr/bin/firefox'

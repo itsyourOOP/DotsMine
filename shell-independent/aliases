@@ -1,11 +1,11 @@
 # from old
 alias yget="yaourt -S"
 alias yrem="yaourt -R"
-alias yupdate="yaourt -Syuu && pacaur -u && orphans"
+alias yupdate='~/DotsMine/scripts/update.sh'
 alias up='cd ..'
 alias weather="curl wttr.in/Pittsburgh"
 alias moonPhase="curl wttr.in/Moon"
-alias weatherAndMoonPhase="weather && moonPhase"
+alias w_and_m="weather && moonPhase"
 alias poweroff="sudo shutdown -h now"
 alias mpsyt="sudo mpsyt"
 alias orochi="sudo orochi"
@@ -52,3 +52,4 @@ alias alias_list='cat ~/DotsMine/shell-independent/aliases'
 #alias thatsHowDumbYouSound='echo "helloo~" | lolcat'
 alias memoir='m'
 alias du='cdu -idh'
+alias npm='sudo npm'

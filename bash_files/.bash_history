@@ -305,3 +305,161 @@ exit
 pstree
 zsh
 exit
+exit
+man perror
+man signal
+man perror
+man waitpid
+man waitpid
+man strsignal
+man exit
+up
+up
+cd Labs/
+cd Lab\ 7/
+dir
+./build.sh lab7.c 
+./build.sh lab7.c 
+./lab7 
+./lab7 ls -a
+./lab7 man less
+./lab7 man les
+./lab7 man less
+./lab7 orochi
+./lab7 nano
+./lab7 python
+./lab7 bash
+./lab7 yaourt bob
+up
+up
+cd Projects/Project\ 4/
+dir
+./build.sh proj4.c 
+yaourt c types
+cproto
+cproto
+yaourt
+yaourt function decl
+yaourt function c
+yaourt function c 
+./build.sh proj4.c 
+./build.sh proj4.c 
+./build.sh proj4.c 
+./build.sh proj4.c 
+./build.sh proj4.c 
+./build.sh proj4.c 
+./build.sh proj4.c 
+./build.sh proj4.c 
+./proj4 
+./proj4 
+./build.sh strtok.c 
+./strtok 
+./build.sh strtok.c
+./build.sh strtok.c
+./strtok 
+./build.sh strtok.c
+./build.sh strtok.c
+./strtok 
+./build.sh strtok.c
+./build.sh strtok.c
+./strtok 
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+./proj4 
+./proj4 
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+./build.sh proj4.c
+./proj4 
+echo $?
+./build.sh proj4.c
+./proj4 
+echo $?
+./build.sh proj4.c
+./proj4 
+./proj4 
+./proj4 
+./proj4 
+./build.sh proj4.c
+./proj4
+./build.sh proj4.c
+./proj4
+./build.sh proj4.c
+./proj4
+./build.sh proj4.c
+./proj4
+./proj4
+./proj4
+./proj4
+./proj4
+./build.sh proj4.c
+./proj4
+./build.sh proj4.c
+./proj4
+./proj4
+./proj4
+./proj4
+echo
+./proj4
+echo $?
+./proj4 
+echo $?
+./proj4 
+echo $?
+./proj4 
+echo $?
+./proj4 
+echo $?
+./proj4 
+./proj4 
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+gdb ./proj4
+./build.sh proj4.c
+./proj4 
+./proj4 
+./build.sh proj4.c
+./proj4 
+./build.sh proj4.c
+./proj4 
+./proj4 
+./build.sh myshell.c 
+sshThoth
+./build.sh lab8.c 
+./lab8
+dir
+tar -h
+tar --help
+tar cvf azh15_lab8 * 
+tar tvf azh15_lab8
+tar cvf azh15_lab8.tar * && rm azh15_lab8 
+tar tvf azh15_lab8.tar 
+rm lab8
+tar cvf azh15_lab8.tar *
+tar tvf azh15_lab8.tar 
+gzip azh15_lab8.tar 
+dir
+sshthoth
+sshThoth 
+sshThoth 
+cd
+cd College/Junior\ Year/Semester\ 1/System\ Software/private/cs449/Labs/Lab\ 9/
+dir
+mv lab9-*.pdf documents/
+cd documents/
+dir
