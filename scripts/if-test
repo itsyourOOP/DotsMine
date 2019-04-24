@@ -1,0 +1,9 @@
+#!/bin/bash
+
+var1=9
+var2=2
+
+if [ $var1 -gt $var2 ] 
+then
+	echo "boosh"
+fi
