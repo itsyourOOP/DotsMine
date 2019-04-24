@@ -1,20 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
-# Specifying the icon(s) in the script
-# This allows us to change its appearance conditionally
-icon=" "
+player_status=$(playerctl status 2> /dev/null)
 
-player_status=$(playerctl-cmus status 2> /dev/null)
-if [[ $? -eq 0 ]]; then
-    metadata="$(playerctl-cmus metadata artist) - $(playerctl-cmus metadata title)"
-fi
-
-# Foreground color formatting tags are optional
-if [[ $player_status = "Playing" ]]; then
-    #echo "%{F#D08770}$icon $metadata"       # Orange when playing
-    echo "${xrdb:*.color6}$icon $metadata"
-elif [[ $player_status = "Paused" ]]; then
-    echo "%{F#65737E}$icon $metadata"       # Greyed out info when paused
+if [ "$player_status" = "Playing" ]; then
+    echo "Playing: $(playerctl metadata artist) - $(playerctl metadata title) - $(playerctl metadata album)"
+elif [ "$player_status" = "Paused" ]; then
+    echo "Paused: $(playerctl metadata artist) - $(playerctl metadata title) - $(playerctl metadata album)"
 else
-    echo "%{F#65737E}$icon"                 # Greyed out icon when stopped
+    echo "d(-_-)b"
 fi

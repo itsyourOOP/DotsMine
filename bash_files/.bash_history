@@ -463,3 +463,29 @@ dir
 mv lab9-*.pdf documents/
 cd documents/
 dir
+dir
+cd cs449/
+dir
+cd Labs/Lab\ 9/
+dir
+cd vm
+dir
+qemu-system-x86_64
+qemu-system-x86_64 tty.qcow2
+dir
+up
+dir
+cd vm/qemu/
+qemu-system-x86_64 tty.qcow2 
+up
+dir
+dir
+up
+dir
+cd hello_dev/
+mv hello_dev.c dice_dev.c
+nano Makefile 
+pkill libreoffice
+cd cs449/Labs/Lab%209
+cd cs449/Labs/Lab\ 9
+sshThoth 

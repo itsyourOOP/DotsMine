@@ -187,3 +187,4 @@ set -o noclobber
 echo "by the way, the C declaration program is 'cdecl'"
 #xdg-settings set default-web-browser firefox.desktop
 export BROWSER='/usr/bin/firefox'
+echo 'by the way, rtm is the rememberthemilk terminal client'
