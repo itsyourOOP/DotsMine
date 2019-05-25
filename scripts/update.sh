@@ -1,6 +1,5 @@
 #!/bin/sh
 
-yaourt -Syuu
-pacaur -u
+yay --combinedupgrade -Syyuu
 sudo pacman -Rns $(pacman -Qtdq)
 

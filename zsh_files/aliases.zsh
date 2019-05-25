@@ -49,5 +49,5 @@ bt() {
 }
 
 source '/home/macrossneurology/DotsMine/shell-independent/aliases'
-alias emacs='emacs -nw'
-alias emacs='emacs -nw'
+
+

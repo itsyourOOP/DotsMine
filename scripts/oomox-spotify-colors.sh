@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-oomoxify-cli -g ~/.cache/wal/colors-oomox
+oomoxify-cli -g -s /opt/spotify/Apps/ ~/.cache/wal/colors-oomox
 
 if pgrep spotify; then
     pkill spotify

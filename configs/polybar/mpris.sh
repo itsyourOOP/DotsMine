@@ -3,9 +3,9 @@
 player_status=$(playerctl status 2> /dev/null)
 
 if [ "$player_status" = "Playing" ]; then
-    echo "Playing: $(playerctl metadata artist) - $(playerctl metadata title) - $(playerctl metadata album)"
+    echo "$(playerctl metadata artist) - $(playerctl metadata title)      $(playerctl position --format '{{ duration(position) }}')/$(playerctl metadata --format '{{ duration(mpris:length) }}') "
 elif [ "$player_status" = "Paused" ]; then
-    echo "Paused: $(playerctl metadata artist) - $(playerctl metadata title) - $(playerctl metadata album)"
+    echo "$(playerctl metadata artist) - $(playerctl metadata title)"
 else
-    echo "d(-_-)b"
+    echo "🎧"
 fi

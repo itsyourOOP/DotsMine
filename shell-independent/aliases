@@ -1,6 +1,7 @@
 # from old
-alias yget="yaourt -S"
-alias yrem="yaourt -R"
+alias yget="yay -S"
+alias yrem="yay -R"
+alias yrem-con="yay -Rn"
 alias yupdate='~/DotsMine/scripts/update.sh'
 alias up='cd ..'
 alias weather="curl wttr.in/Pittsburgh"
@@ -19,7 +20,7 @@ alias pacrepo='sudo reflector -l 20 -f 10 --save /etc/pacman.d/mirrorlist'
 #alias pacman='sudo pacman'
 alias journalctl='sudo journalctl'
 alias pacu='sudo pacman -Syu --noconfirm'
-#alias auru='yaourt -Syua --noconfirm'
+#alias auru='yay -Syua --noconfirm'
 alias systemctl='sudo systemctl'
 alias se='ls /usr/bin | grep'
 
@@ -56,3 +57,5 @@ alias npm='sudo npm'
 alias googler='BROWSER=links googler'
 alias define='googler -n 2 define'
 alias emacs='emacs -nw'
+alias vi='vim'
+alias convert-to-m4a='~/DotsMine/scripts/convert-to-m4a'

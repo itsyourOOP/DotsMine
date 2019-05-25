@@ -28,13 +28,16 @@ blue = ${xrdb:*.color4}
 yellow = ${xrdb:*.color3}
 green = ${xrdb:*.color6}
 
+;----------------------------------------------------------------------------------------
+
+
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 25
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 1.0
+radius = 10.5
 fixed-center = false
 
 background = ${colors.bg}
@@ -43,10 +46,10 @@ foreground = ${colors.fg}
 line-size = 3
 line-color = #f00
 
-border-size = 0
+border-size = 2
 border-color = #00000000
 
-bottom = true
+bottom = false
 
 padding-left = 0
 padding-right = 2
@@ -57,14 +60,16 @@ module-margin-right = 2
 font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
-font-3 = "FontAwesome:pixelsize=10;0"
+font-3 = FontAwesome:pixelsize=10;0
+font-4 = HanaMinA:style=Regular
+font-5 = HanaMinB:style=Regular
 
 modules-left = powermenu i3
-modules-center = player-mpris-simple
-modules-right = pkg xbacklight xkeyboard volume wlan battery date
+modules-center = date 
+modules-right = xbacklight volume xkeyboard wlan battery
 
 tray-position = right
-tray-padding = 2
+tray-padding = 0.5
 ;tray-transparent = true
 ;tray-background = #0063ff
 
@@ -78,6 +83,21 @@ wm-restack = i3
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
+
+
+[bar/minibar]
+modules-left = mpd player-mpris-simple
+modules-center = 
+modules-right = 
+inherit = bar/example
+width = 40%
+offset-y = 5
+border-size = 3
+padding-right = 1
+padding-left = 1
+bottom = true
+
+;-------------------------------------------------------------------------------
 
 [module/i3]
 type = internal/i3
@@ -183,11 +203,23 @@ label-separator-padding = 0
 label-separator-foreground = ${colors.red}
 
 
+
+
+;-------------------------------------------------------------------
+
+
+
 [module/player-mpris-simple]
 type = custom/script
-label = %output:0:100%
 exec = ~/.config/polybar/mpris.sh
-interval = 3
+interval = 0.5
+format = <label>
+label = %output:0:50%
+label-foreground = ${colors.fg}
+#format-prefix = " 🎧 "
+#format-prefix-padding-left = 1
+#format-prefix-padding-right = 1
+#format-prefix-foreground = ${colors.fg}
 click-left = playerctl previous
 click-right = playerctl next
 click-middle = playerctl play-pause
@@ -251,19 +283,24 @@ label-empty-padding = 2
 
 [module/mpd]
 type = internal/mpd
-format-online = <label-song> 
-format-offline = "mopidy is sleeping"
+format-online = <label-song> <label-time>
+;format-playing = <label-playing> <label-time>
+;format-paused = <label-paused> <label-time>
+;format-stopped = <label-stopped>
 
-label-active-font = 3
+format-online-background = ${colors.bg}
+format-online-foreground = ${colors.fg}
+format-online-prefix = "  "
+format-online-prefix-background = ${colors.fg}
+format-online-prefix-foreground = ${colors.bg}
 
-#icon-prev = 
-#icon-stop = 
-#icon-play =  
-#icon-pause = 
-#icon-next = 
-
-label-song-maxlen = 45
+label-song-maxlen = 60
 label-song-ellipsis = true
+label-song = "  %artist% - %title%  "
+label-paused-maxlen = 60
+label-paused-ellipsis = true
+label-paused = "Paused:  %artist% - %title%  "
+label-time = "  %elapsed% / %total%  "
 
 [module/xbacklight]
 type = internal/xbacklight
@@ -343,17 +380,17 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 0.5
 
 date =
 date-alt = " %Y-%m-%d"
 
-time = %I:%M
+time = %I:%M 
 time-alt = %I:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.gray}
-format-underline = ${colors.red}
+#format-underline = ${colors.red}
 
 label = %date% %time%
 

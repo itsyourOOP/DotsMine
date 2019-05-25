@@ -188,3 +188,10 @@ echo "by the way, the C declaration program is 'cdecl'"
 #xdg-settings set default-web-browser firefox.desktop
 export BROWSER='/usr/bin/firefox'
 echo 'by the way, rtm is the rememberthemilk terminal client'
+
+
+PATH="/home/macrossneurology/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/macrossneurology/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/macrossneurology/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/macrossneurology/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/macrossneurology/perl5"; export PERL_MM_OPT;
