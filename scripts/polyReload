@@ -36,11 +36,12 @@ COMMENTBLOCK
 wal-discord -b wal -t
 echo "wal-discord: Set Discord colors"
 
-oomox-cli -o xresources /opt/oomox/scripted_colors/xresources/xresources
-oomox-cli -o xresources2 /opt/oomox/scripted_colors/xresources/xresources2
-oomox-cli -o xresources3 /opt/oomox/scripted_colors/xresources/xresources3
-echo "Oomox: oomox has finished resetting theme colors"
+echo "Oomox: refreshing theme colors, this may take up to a minute..."
+nohup oomox-cli -o xresources /opt/oomox/scripted_colors/xresources/xresources > /dev/null 2>&1
+nohup oomox-cli -o xresources2 /opt/oomox/scripted_colors/xresources/xresources2 > /dev/null 2>&1
+nohup oomox-cli -o xresources3 /opt/oomox/scripted_colors/xresources/xresources3 > /dev/null 2>&1
+echo "Oomox: oomox has finished refreshing theme colors"
 
-echo "Oomox reloading Spotify with new colors"
-/home/macrossneurology/DotsMine/scripts/oomox-spotify-colors.sh
-echo "Oomox has finished reloading Spotify colors"
+echo "Oomox: reloading Spotify with new colors..."
+nohup /home/macrossneurology/DotsMine/scripts/oomox-spotify-colors.sh > /dev/null 2>&1
+echo "Oomox: oomox has finished reloading Spotify with new colors"

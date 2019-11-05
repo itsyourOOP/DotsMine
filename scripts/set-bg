@@ -25,109 +25,91 @@ case "$choice" in
 
 1) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Chiptune/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 2) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/glitch/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 ##wal_steam
 ;;
 
 3) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Colors/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 4) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Touhou/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 5) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Floam/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 6) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Impressionism/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 7) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/print/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 8) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Pastel/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 9) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/dream/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 10) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Mandelbrot/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 11) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Miscolour/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 12) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/abstractions/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 13) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Winter/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 14) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Minerals/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 15) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Hallow/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 16) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Forestry/' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 17) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Deprecation' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
 18) wal  -i '/home/macrossneurology/Pictures/Wallpapers/WalCompatible/Space' -t -o '/home/macrossneurology/.config/wal/pywal_sublime.py'
 echo "choice is $choice" >> ~/set_bg.log
-/home/macrossneurology/DotsMine/scripts/polyReload
 #wal_steam
 ;;
 
@@ -142,5 +124,7 @@ fi
 ;;
 
 esac
+
+/home/macrossneurology/DotsMine/scripts/polyReload
 
 #bash ~/wal-set

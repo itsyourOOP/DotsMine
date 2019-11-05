@@ -1,35 +1,3 @@
-sudo pacman -S yaourt
-yaourt -S rsync
-yaourt -S dkms rtlwifi_new 
-yaourt -S dkms
-yaourt -S linux-headers linux-lts-headers
-yaourt rtlwifi
-sudo modprobe -r rtl8723de
-sudo modprobe -h
-sudo modprobe -v rtl8723de
-sudo wpa_cli wps_pbc
-gpg --recv-keys --keyserver hkp://pgp.mit.edu 0FC3042E345AD05D
-gpg --recv-keys --keyserver hkp://pgp.mit.edu A2C794A986419D8A
-sudo gpg
-sudo gpg --recv-keys --keyserver hkp://pgp.mit.edu A2C794A986419D8A
-sudo pacman-key --init
-sudo pacman-key --populate antergos archlinux
-sudo pacman-key --populate antergos archlinux
-sudo pacman-key --refresh-keys
-sudo pacman -Sy archlinux-keyring && sudo pacman -Syyu
-gpg --recv-keys A2C794A986419D8A
-yget artwiz-lemon
-zsh
-hcitool dev
-yaourt -S hcitool
-yaourt -S zsh
-chsh 
-su macrossneurology
-exit
-chsh -s /bin/zsh
-chsh -s /bin/zsh
-chsh -l
-chsh -s /usr/bin/zsh
 echo $SHELL
 chsh -s /usr/bin/zsh
 sudo chsh -s /usr/bin/zsh
@@ -489,3 +457,44 @@ pkill libreoffice
 cd cs449/Labs/Lab%209
 cd cs449/Labs/Lab\ 9
 sshThoth 
+dir
+up
+dir
+up
+dir
+up
+dir
+up
+dir
+cd GBA
+objcopy -h
+dir
+cd basic
+cd hello
+make -h
+make hello
+python3 hello.py 
+python3 hello.py 
+python3 hello.py 
+up
+dir
+make 
+dir
+~/Documents/coding/GB/debugging/bgb/
+cd ~/Documents/coding/GB/debugging/bgb/
+dir
+up
+up
+up
+dir
+./build_linux.sh 
+mod2gbt
+./mod2gbt 
+up
+dir
+~/Documents/coding/GB/debugging/bgb/bgb.exe hello-world.gb
+wine ~/Documents/coding/GB/debugging/bgb/bgb.exe hello-world.gb
+pkill wine
+yay gameboy emulator
+termboy hello-world.gb
+python3

@@ -1,10 +1,11 @@
-export TERM="termite"
+#export TERM="urxvt"
+export TERMINAL="/usr/bin/kitty"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+#export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -38,10 +39,10 @@ export ZSH=$HOME/.oh-my-zsh
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+ COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -66,7 +67,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -100,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 #toilet -f 3D-ASCII.flf --metal wow | lolcat
 
 # Coloured man pages
-man() {
+function man() {
 	env LESS_TERMCAP_mb=$'\E[01;31m' \
 		LESS_TERMCAP_md=$'\E[01;38;5;74m' \
 		LESS_TERMCAP_me=$'\E[0m' \
@@ -136,39 +137,39 @@ function _current_epoch {
   echo "$(($(date +%s) / 60 / 60 / 24))"
 }
 
-function _check_updates {
-  (
-    flock -n 9 || return # one concurrent update process at the time
-    local ignored_pkgs="^linux"
-    #local updates=`wc -l < /var/log/pacman-updates.log`
-    local updates=`grep -Ev $ignored_pkgs /var/log/pacman-updates.log | wc -l`
-    if [ $updates -gt 0 ]; then
-      echo -n "There are $updates updates. Upgrade? (y/n) [n] "
-      read line
-      if [ "$line" = Y ] || [ "$line" = y ]; then
-        yaourt -Syu --aur
-        pacman -Qu | sudo tee /var/log/pacman-updates.log >/dev/null
-      fi
-    fi
-    echo "$(_current_epoch)" > $HOME/.pacman-update
-  ) 9> ~/.pacman-update.lck
-}
-
-if [[ $- == *i* ]] && # only interactive shells
-  [ -e /var/log/pacman-updates.log ] && # only after first update
-  [ ! -e /var/lib/pacman/db.lck ]; then # not if pacman is running
-  if [ -e .pacman-update ]; then
-    read last_epoch < $HOME/.pacman-update
-    if [[ -n "$last_epoch" ]]; then
-      if [ $(($(_current_epoch) - $last_epoch)) -ge 1 ]; then
-        _check_updates
-      fi
-    fi
-    unset last_epoch
-  else
-    _check_updates
-  fi
-fi
+#function _check_updates {
+#  (
+#    flock -n 9 || return # one concurrent update process at the time
+#    local ignored_pkgs="^linux"
+#    #local updates=`wc -l < /var/log/pacman-updates.log`
+#    local updates=`grep -Ev $ignored_pkgs /var/log/pacman-updates.log | wc -l`
+#    if [ $updates -gt 0 ]; then
+#      echo -n "There are $updates updates. Upgrade? (y/n) [n] "
+#      read line
+#      if [ "$line" = Y ] || [ "$line" = y ]; then
+#        yaourt -Syu --aur
+#        pacman -Qu | sudo tee /var/log/pacman-updates.log >/dev/null
+#      fi
+#    fi
+#    echo "$(_current_epoch)" > $HOME/.pacman-update
+#  ) 9> ~/.pacman-update.lck
+#}
+#
+#if [[ $- == *i* ]] && # only interactive shells
+#  [ -e /var/log/pacman-updates.log ] && # only after first update
+#  [ ! -e /var/lib/pacman/db.lck ]; then # not if pacman is running
+#  if [ -e .pacman-update ]; then
+#    read last_epoch < $HOME/.pacman-update
+#    if [[ -n "$last_epoch" ]]; then
+#      if [ $(($(_current_epoch) - $last_epoch)) -ge 1 ]; then
+#        _check_updates
+#      fi
+#    fi
+#    unset last_epoch
+#  else
+#    _check_updates
+#  fi
+#fi
 
 
 
@@ -180,18 +181,35 @@ wal -R
 #"YOU NEED TO HELP YOURSELF" | lolcat
 #toilet -t -f 6x10 "you need to help yourself" | lolcat
 
-source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+#source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 set -o noclobber
 
 #rescuetime &
 echo "by the way, the C declaration program is 'cdecl'"
 #xdg-settings set default-web-browser firefox.desktop
 export BROWSER='/usr/bin/firefox'
-echo 'by the way, rtm is the rememberthemilk terminal client'
+#echo 'by the way, rtm is the rememberthemilk terminal client'
+echo "feel free to e-mail your professors when you're stuck, that's *literally* what they're there for idiot"
 
+echo 'also here are the things you need to do'
+
+wunderline week
 
 PATH="/home/macrossneurology/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/macrossneurology/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/macrossneurology/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/macrossneurology/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/macrossneurology/perl5"; export PERL_MM_OPT;
+
+source ~/DotsMine/shell-independent/profile
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[[ -f /home/macrossneurology/.cache/yay/gb-studio-git/src/gb-studio/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/macrossneurology/.cache/yay/gb-studio-git/src/gb-studio/node_modules/tabtab/.completions/electron-forge.zsh
+
+source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+
+ autoload -Uz promptinit
+ promptinit
+ prompt giddie
+

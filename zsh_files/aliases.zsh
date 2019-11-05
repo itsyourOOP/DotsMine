@@ -19,6 +19,7 @@ alias ga="git add"
 alias gg="git log --oneline --graph --decorate --color"
 #unalias gd
 alias gd="git diff"
+alias gc="git clone"
 
 ## Zshmarks
 alias g="jump"
