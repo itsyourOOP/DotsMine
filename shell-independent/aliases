@@ -33,7 +33,7 @@ alias es_alias='edit_alias && source_alias'
 alias ech='clear'
 alias heck='cd && clear'
 alias su_nano='sudo nano'
-alias rtv='rtv --enable-media'
+alias tuir='tuir --enable-media'
 alias git='hub'
 alias edit_zshrc='nano ~/DotsMine/zsh_files/.zshrc'
 alias edit_bashrc='nano ~/DotsMine/bash_files/.bashrc'
@@ -56,7 +56,22 @@ alias du='cdu -idh'
 alias npm='sudo npm'
 alias googler='BROWSER=links googler'
 alias define='googler -n 2 define'
-alias emacs='emacs -nw'
+#alias emacs='emacs -nw'
 alias vi='vim'
 alias convert-to-m4a='~/DotsMine/scripts/convert-to-m4a'
 alias wal-discord='wal-discord -b wal -t'
+
+#Radio Streams
+alias mplayer-radio-stream="mplayer -nocache -afm ffmpeg"
+
+alias nightwave-plaza="mplayer-radio-stream http://radio.plaza.one/mp3"
+alias wqed-fm="mplayer-radio-stream http://wqed.ic.llnwd.net/stream/wqed_wqed"
+alias calm-debussy="mplayer-radio-stream http://streams.calmradio.com:10228/stream"
+alias calm-solo-piano="mplayer-radio-stream http://streams.calmradio.com:1228/stream" 
+alias calm-om="mplayer-radio-stream http://streams.calmradio.com:4728/stream"
+alias calm-sleep="mplayer-radio-stream http://streams.calmradio.com:30628/stream"
+alias calm-ravel="mplayer-radio-stream http://streams.calmradio.com:10328/stream"
+
+#Youtube Audio
+alias mpv-audio="mpv --no-video"
+

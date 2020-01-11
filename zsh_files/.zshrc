@@ -1,5 +1,7 @@
-#export TERM="urxvt"
+export TERM="xterm-256color"
 export TERMINAL="/usr/bin/kitty"
+export REDDIO_LIB="$HOME"/.local/share/reddio
+export SDLDIR="/usr/"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -191,9 +193,13 @@ export BROWSER='/usr/bin/firefox'
 #echo 'by the way, rtm is the rememberthemilk terminal client'
 echo "feel free to e-mail your professors when you're stuck, that's *literally* what they're there for idiot"
 
+echo "remember that rome was not built in a day; pace yourself, don't do everything at once"
+
 echo 'also here are the things you need to do'
 
 wunderline week
+echo '----------------------------------'
+habitipy dailies
 
 PATH="/home/macrossneurology/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/macrossneurology/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
@@ -213,3 +219,8 @@ source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
  promptinit
  prompt giddie
 
+ [[ -s "/usr/share/qfc/qfc.sh" ]] && source "/usr/share/qfc/qfc.sh"
+
+export PATH="/home/macrossneurology/.local/bin:$PATH"
+export PATH="/home/macrossneurology/.cargo/bin:$PATH"
+PATH=/home/macrossneurology/bin:/home/macrossneurology/.cargo/bin:/home/macrossneurology/.local/bin:/home/macrossneurology/perl5/bin:/home/macrossneurology/.npm-packages/bin:/root/.gem/ruby/2.3.0/bin:/home/macrossneurology/.gem/ruby/2.7.0/bin:/home/macrossneurology/.cargo/bin:/home/macrossneurology/.local/bin:/home/macrossneurology/perl5/bin:/home/macrossneurology/.npm-packages/bin:/root/.gem/ruby/2.3.0/bin:/home/macrossneurology/.gem/ruby/2.7.0/bin:/usr/local/bin:/usr/local/sbin:/opt/devkitpro/tools/bin:/home/macrossneurology/.cargo/bin:/home/macrossneurology/.local/bin:/home/macrossneurology/perl5/bin:/home/macrossneurology/.npm-packages/bin:/root/.gem/ruby/2.3.0/bin:/home/macrossneurology/.gem/ruby/2.7.0/bin:/usr/bin:/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin://home/macrossneurology/.composer/vendor/bin:.vendor/bin/:/home/macrossneurology/bin://home/macrossneurology/.composer/vendor/bin:.vendor/bin/:/home/macrossneurology/bin:/usr/local/bin://home/macrossneurology/.composer/vendor/bin:.vendor/bin/:/home/macrossneurology/bin:/usr/local/bin

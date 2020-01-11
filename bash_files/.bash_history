@@ -1,375 +1,3 @@
-echo $SHELL
-chsh -s /usr/bin/zsh
-sudo chsh -s /usr/bin/zsh
-echo $SHELL
-usermod -h
-sudo chmod a+x /usr/bin/chsh
-finger macrossneurology
-yget finger
-yaourt finger
-zsh
-exit
-dir
-dir
-dir
-make clean
-make bigdriver 
-make bigdriver 
-make bigdriver 
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-make clean
-make bigdriver 
-make clean
-make bigdriver 
-make clean
-make bigdriver 
-make clean
-make bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-make clean
-make bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver
-./bigdriver
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-make clean
-make bigdriver 
-./bigdriver 
-yget rgbds
-yget wla-dxs
-yget wla-dx rgbds
-yaourt wla-dx
-yaourt gbdk
-yget rgbds
-yaourt bgb
-yget nesasm
-yoaurt nesasm
-yaourt nesasm
-yaourt cc65
-yaourt nes
-yaourt nes screen
-yaourt fceux
-make clean
-make bigdriver 
-./bigdriver
-make clean && make bigdriver && gdb ./bigdriver
-make clean && make bigdriver && gdb ./bigdriver
-make clean && make bigdriver && gdb ./bigdriver
-make clean && make bigdriver && gdb ./bigdriver
-make clean && make bigdriver && gdb ./bigdriver
-yaourt undefined-medium
-set-bg 1
-set-bg 1
-sshThoth
-up
-up
-cd Lectures/
-dir
-cd Lecture\ 04/
-dir
-unoconv -f pdf 04\ -\ C\ -\ Structs\,\ Enums\,\ Typedefs.pptx 
-unoconv
-up
-up
-up
-up
-nano ~/.bashrc
-chmod +x build.sh 
-./build.sh 14_qsort
-./build.sh 14_qsort.c
-./14_qsort 
-./build.sh 14_qsort.c
-./14_qsort 
-up
-cd lab\ 5/
-dir
-dir
-./build.sh lab5.c 
-chmod +x build.sh 
-up
-cd lab\ 5/
-dir
-./build.sh lab5.c 
-./build.sh lab5.c 
-./lab5 
-./build.sh lab5.c 
-./lab5 
-./build.sh lab5.c 
-./lab5 
-./build.sh lab5.c 
-./lab5 
-./build.sh lab5.c 
-./lab5 
-./build.sh lab5.c 
-./lab5 
-./build.sh lab5.c 
-./lab5 
-tar cvf azh15_lab5.tar lab5.c 
-dir
-tar tvf azh15_lab5.tar 
-gzip azh15_lab5.tar 
-dir
-edit_alias
-alias_list
-source_alias
-alias_list
-alias_list
-edit_alias
-es_alias
-alias_list 
-sshThoth
-./lab5 
-pico
-sshThoth
-sshThoth
-./testmystrings.sh /bin/ls
-cd cs449/
-./testmystrings.sh /bin/ls
-./testmystrings.sh /bin/ls
-./mystrings /bin/ls
-strings /bin/ls
-nano testmystrings.sh 
-nano strings.out 
-nano mystrings.out 
-./build.sh mystrings.c
-./mystrings /bin/ls
-./build.sh mystrings.c
-./build.sh mystrings.c
-./mystrings /bin/ls
-./build.sh mystrings.c
-./mystrings /bin/ls
-./build.sh mystrings.c
-./build.sh mystrings.c
-./build.sh mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-strings build.sh 
-strings less
-strings /bin/less
-dir
-./build.sh mystrings.c
-./build.sh mystrings.c
-./build.sh mystrings.c
-./build.sh mystrings.c
-./build.sh mystrings.c
-./mystrings /bin/ln
-strings /bin/ln
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-./build.sh mystrings.c
-./mystrings mystrings.c
-dir
-./build.sh mystrings.c
-./testmystrings.sh 
-./testmystrings.sh /bin/ls
-./testmystrings.sh /bin/less
-./mystrings /bin/ls
-./mystrings /bin/cmus
-./mystrings /bin/init 
-links
-pstree
-exit
-zsh
-exit
-pstree
-zsh
-exit
-exit
-man perror
-man signal
-man perror
-man waitpid
-man waitpid
-man strsignal
-man exit
-up
-up
-cd Labs/
-cd Lab\ 7/
-dir
-./build.sh lab7.c 
-./build.sh lab7.c 
-./lab7 
-./lab7 ls -a
-./lab7 man less
-./lab7 man les
-./lab7 man less
-./lab7 orochi
-./lab7 nano
-./lab7 python
-./lab7 bash
-./lab7 yaourt bob
-up
-up
-cd Projects/Project\ 4/
-dir
-./build.sh proj4.c 
-yaourt c types
-cproto
-cproto
-yaourt
-yaourt function decl
-yaourt function c
-yaourt function c 
-./build.sh proj4.c 
-./build.sh proj4.c 
-./build.sh proj4.c 
-./build.sh proj4.c 
-./build.sh proj4.c 
-./build.sh proj4.c 
-./build.sh proj4.c 
-./build.sh proj4.c 
-./proj4 
-./proj4 
-./build.sh strtok.c 
-./strtok 
-./build.sh strtok.c
-./build.sh strtok.c
-./strtok 
-./build.sh strtok.c
-./build.sh strtok.c
-./strtok 
-./build.sh strtok.c
-./build.sh strtok.c
-./strtok 
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-./proj4 
-./proj4 
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-./build.sh proj4.c
-./proj4 
-echo $?
-./build.sh proj4.c
-./proj4 
-echo $?
-./build.sh proj4.c
-./proj4 
-./proj4 
-./proj4 
-./proj4 
-./build.sh proj4.c
-./proj4
-./build.sh proj4.c
-./proj4
-./build.sh proj4.c
-./proj4
-./build.sh proj4.c
-./proj4
-./proj4
-./proj4
-./proj4
 ./proj4
 ./build.sh proj4.c
 ./proj4
@@ -498,3 +126,375 @@ pkill wine
 yay gameboy emulator
 termboy hello-world.gb
 python3
+up
+cd Projects/Project 3/
+dir
+cd Projects/Project\ 3/
+dir
+java TestMSTTour.java 10 false
+javac TestMSTTour.java 
+javac TestMSTTour.java 
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+java TestMSTTour 8 false
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 8 true
+javac TestMSTTour.java 
+javac TestMSTTour.java 
+javac TestMSTTour.java 
+java TestMSTTour 8 true
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 8 false
+javac TestMSTTour.java 
+java TestMSTTour 100000 false
+tmux
+exit
+wordgrinder
+ech
+exit
+spotifyd
+pkill spt
+spt
+exit
+pkill spt
+spt
+exit
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+javac TestBSTOptimizer.java 
+java TestBSTOptimizer 
+dir
+tar -h
+tar czvf BinaryTree.java BSTOptimizer.java README.txt TestBSTOptimizer.java 
+dir
+nano TestBSTOptimizer.java
+nano BinaryTree.java
+tar czvf azh15_Project_2.tar BinaryTree.java BSTOptimizer.java README.txt TestBSTOptimizer.java 
+gzip azh15_Project_2.tar 
+dir
+tar tf azh15_Project_2.tar.gz 
+tar -tf azh15_Project_2.tar.gz 
+ls -l azh15_Project_2.tar.gz 
+ls azh15_Project_2.tar.gz 
+tar -czvf azh15_Project_2.tar.gz BinaryTree.java BSTOptimizer.java README.txt TestBSTOptimizer.java 
+ls azh15_Project_2.tar.gz 
+ls -l azh15_Project_2.tar.gz 
+tar -tf azh15_Project_2.tar.gz 
+tar -tf azh15_Project_2.tar.gz 
+tar -tvf azh15_Project_2.tar.gz 
+gcc -h
+gcc --h
+gcc -O --h
+man gcc
+gcc n64crc.c 
+rm a.out
+gcc n64crc.c -o n64crc
+n64crc -h
+./n64crc
+./n64crc -h
+mv n64crc n64crc.c n64chain/
+mv n64crc n
+mv n64crc n64crc.c toolchain/n64chain/
+tmux
+dir
+javac TestLCS.java 
+java TestLCS 
+java TestLCS abc aac
+javac TestLCS.java 
+java TestLCS abc aac
+javac TestLCS.java 
+java TestLCS abc aac
+javac TestLCS.java 
+javac TestLCS.java 
+java TestLCS abc aac
+javac TestLCS.java 
+java TestLCS abc aac
+javac TestLCS.java 
+java TestLCS abc aac
+javac TestLCS.java 
+java TestLCS abc aac
+javac TestLCS.java 
+java TestLCS abc aac
+javac TestLCS.java 
+java TestLCS abc aac
+javac TestLCS.java 
+java TestLCS abc aac
+java TestLCS abbbbc abbbbbbbbbbcdefg
+java TestLCS haedlelfog
+java TestLCS haedlelfog abchxeylzloabc
+java TestLCS haedle beagle
+javac TestLCS.java 
+java TestLCS haedle beagle
+javac TestLCS.java 
+java TestLCS haedle beagle
+javac TestLCS.java 
+java TestLCS haedle beagle
+javac TestLCS.java 
+javac TestLCS.java 
+java TestLCS haedle beagle
+java TestLCS haedle beagle
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylzloabc
+java TestLCS haedlelfog abchxeylzloabc
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylzloabc
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylzloabc
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylzloabc
+java TestLCS booooooooooooooooob obb
+java TestLCS haedlelfog abchxeylz
+java TestLCS haedle abchxeylz
+java TestLCS haedle abchx
+java TestLCS haedlefog abchxeylz
+java TestLCS haedlefog abchxeylz
+java TestLCS haedlelfog abchxeylz
+java TestLCS haedlelfog abchxeylz
+java TestLCS haedlel leg
+java TestLCS haedle hello
+java TestLCS hello abchxeylz
+java TestLCS hellooogp dwwnfw
+java TestLCS hellooogp dwwnfwhhh
+java TestLCS hellooogp dwwnfwhhhell
+java TestLCS hellooogpwgegwioengowengo dwwnfwhhhellyygwehgwehg
+java TestLCS hellooogpwgegwioengowengo dwwnfwhhhellyygwehgwehg
+java TestLCS hellooogpwgegwioengowengo dwwnfwhhhellyygwehgwehg
+java TestLCS hellooogpwgegwioengowengo dwwnfwhhhellyygwehgwehg
+java TestLCS hellooogpwgegwioengowengo dwwnfwhhhellyygwehgwehg
+javac TestLCS.java 
+java TestLCS hellooogp dwwnfwhhhell
+java TestLCS haedlelfog abchxeylz
+java TestLCS haedlelfog abchxeylz
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylz
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylz
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylz
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylz
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylz
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylz
+javac TestLCS.java 
+java TestLCS haedlelfog abchxeylz
+java TestLCS haed abch
+javac TestLCS.java 
+java TestLCS haed abch
+java TestLCS haed abch
+javac TestLCS.java 
+java TestLCS haed abch
+java TestLCS haed abch
+java TestLCS haedlelfog abchxeylz
+java TestLCS haedlelfog abchxeylz
+java TestLCS haedlelfog abchxeylzloabc
+java TestLCS WDblWXdq7Y2iBxRpAQaIK4OAyjCUdWZ0LI74jU8F0ekiYns1OyrUSeGDwDvya4CySGew9uuS5WjwjbhyV26e5oWlv3kJqHirR9Zn ISg50urNOLf6iKyUVWII5eVjZtFkopq7gzQaGLocUrlJOLm5axL1zo5ajTXcHUYulL4YRsd5EwHYS75lhUNuySeyciszVJW5Svs8
+java TestLCS haedlelfogwfwevevwefwdfwef abchxeylzloabcgggbrgwgewfgwefw
+java TestLCS haed abch
+java TestLCS haedlelfog abchxeylz
+java TestLCS haedlelfog abchxeylzloabc
+java TestLCS cat dog
+java TestLCS catdog dogcat
+java TestLCS catdog dogcat
+java TestLCS catdog dog
+java TestLCS dog dog
+javac TestLCS.java 
+java TestLCS dog dog
+java TestLCS catdog dog
+java TestLCS catdog dogcat
+java TestLCS haedlelfog abchxeylzloabc
+java TestLCS haedlelfog abchxeylz
+java TestLCS haedlelfog abchxeylzloabc
+6cord
+terminal-discord
+exit
+dir
+dir
+dir
+dir
+up
+up
+ech
+exit
+6cord
+ncspot
+ncspot
+ncspot
+ncspot
+tar -h
+tar --help
+tar cvzf azh15_project_4.tar.gz LCS.java TestLCS.java README.txt
+tar tvf azh15_project_4.tar.gz 
+cd project\ 1\ example/
+java TestClothCutter 
+up
+javac TestClothCutter.java 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+cd project\ 1\ example/
+java TestClothCutter 
+up
+dir
+javac TestClothCutter.java 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+javac TestClothCutter.java 
+java TestClothCutter 
+tar czvf azh15_proj1.tar.gz ClothCutter.java Pattern.java TestClothCutter.java 
+nano README.txt
+tar czvf azh15_proj1.tar.gz ClothCutter.java Pattern.java TestClothCutter.java README.txt 
+java TestClothCutter 
+java TestClothCutter 
+java TestClothCutter 
+java TestClothCutter 
+dir
+cd project\ 1\ example/
+java TestClothCutter(1) 
+java TestClothCutter
+up
+cd project\ 1\ example/
+javac TestClothCutter.java
+java TestClothCutter
+gcc M6502.c 
+xa hello_world.asm 
+ca65 -h
+ca65 -o hello_world hello_world.asm 
+sim65 hello_world
+up
+cd Emulators/
+git clone https://github.com/gianlucag/mos6502.git
+cd mos6502/
+g++ mos6502.cpp 
+up
+git clone https://github.com/makarcz/vm6502
+cd vm6502/
+dir
+make clean all
+make clean all
+make clean all
+make clean all
+nano makefile
+make clean all
+up
+dir
+rm -rf *
+git clone https://github.com/practicingruby/vintage.git
+cd vintage
+dir
+cd bin
+dir
+ruby vintage ../../../programs/hello_world
+up
+up
+rm -rf *
+git clone https://github.com/pda/go6502.git
+cd go6502/
+dir
+go run go6502.go 
+rgbasm -o main.0 main.asm
+rgblink -o hello-world.gb main.o
+rgbasm -o main.o main.asm
+rgbasm -o main.o main.asm
+rgblink -o hello-world.gb main.o
+rgbasm -o main.o main.asm
+rgblink -o hello-world.gb main.o
+rgbfix -v -p 0 hello-world.gb 
+rgbasm -o main.o main.asm
+rgblink -o hello-world.gb main.o
+rgbfix -v -p 0 hello-world.gb 
+sim65 hello_world.asm
+sim65 hello_world.asm
+yay 6502 assembler
+yget wla_dx
+ech
+chmod +x addition.py 
+./addition.py 
+python addition.py 
+python -v
+python -h
+python -V
+python addition.py 
+./addition.py 
+ech
