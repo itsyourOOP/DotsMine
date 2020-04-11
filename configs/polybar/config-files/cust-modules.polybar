@@ -1,0 +1,23 @@
+[module/player-mpris-simple]
+type = custom/script
+exec = ~/.config/polybar/config-files/mpris.sh
+interval = 0.5
+format = <label>
+label = %output:0:70%
+label-foreground = ${colors.fg}
+format-prefix = "🎧 "
+#format-prefix-padding-left = 1
+#format-prefix-padding-right = 1
+#format-prefix-foreground = ${colors.fg}
+click-left = playerctl previous
+click-right = playerctl next
+click-middle = playerctl play-pause
+
+[module/pkg]
+type = custom/script
+interval = 1200
+#format = <label>
+#format-underline = ${colors.fg}
+label = %output:0:30%
+exec = ~/.config/polybar/config-files/pkg.sh
+#exec-if = "ping -q -w 2 -c 1 google.com" > /dev/null"

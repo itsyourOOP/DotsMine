@@ -7,8 +7,8 @@ killall -q polybar
 while pgrep -x polybar >/dev/null; do sleep 1; done
 
 # Launch bar1 and bar2
-polybar -q example &
-
+detach -- polybar -q main
+detach -- polybar -q minibar
 
 echo "Bars launched..."
 
