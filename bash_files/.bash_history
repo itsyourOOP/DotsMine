@@ -1,54 +1,3 @@
-./proj4
-./build.sh proj4.c
-./proj4
-./build.sh proj4.c
-./proj4
-./proj4
-./proj4
-./proj4
-echo
-./proj4
-echo $?
-./proj4 
-echo $?
-./proj4 
-echo $?
-./proj4 
-echo $?
-./proj4 
-echo $?
-./proj4 
-./proj4 
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-gdb ./proj4
-./build.sh proj4.c
-./proj4 
-./proj4 
-./build.sh proj4.c
-./proj4 
-./build.sh proj4.c
-./proj4 
-./proj4 
-./build.sh myshell.c 
-sshThoth
-./build.sh lab8.c 
-./lab8
-dir
-tar -h
-tar --help
-tar cvf azh15_lab8 * 
-tar tvf azh15_lab8
-tar cvf azh15_lab8.tar * && rm azh15_lab8 
-tar tvf azh15_lab8.tar 
-rm lab8
-tar cvf azh15_lab8.tar *
-tar tvf azh15_lab8.tar 
-gzip azh15_lab8.tar 
 dir
 sshthoth
 sshThoth 
@@ -498,3 +447,54 @@ python -V
 python addition.py 
 ./addition.py 
 ech
+flex -h
+tmux
+dir
+exit
+nano ~/.config/i3/config
+exit
+ncspot
+ncspot
+yget imgcat
+yay imgcat
+yay imgcat
+imgimg
+imgcat ~/Pictures/Wallpapers/WalCompatible/Pexels/above-atmosphere-clouds-37728.jpg 
+imgcat ~/Pictures/Wallpapers/WalCompatible/Chiptune/
+imgcat ~/Pictures/Wallpapers/WalCompatible/Chiptune/wallup-79362.png 
+imgcat ~/Pictures/Wallpapers/WalCompatible/Chiptune/wallup-79360.png 
+imgcat -h
+imgcat -h
+imgcat ~/Downloads/download.png 
+yay gb-studio
+exit
+./compile.sh
+nano compile.sh 
+./compile.sh
+./lexer Test\ Cases/test-keywords.in test.out
+./lexer Test\ Cases/test-program-sum.in test.out
+./lexer Test\ Cases/test-program-selection-sort.in test.out
+./compile.sh
+./lexer Test\ Cases/test-program-selection-sort.in test.out
+./compile.sh
+./lexer Test\ Cases/test-program-selection-sort.in test.out
+./compile.sh
+./lexer Test\ Cases/test-program-selection-sort.in test.out
+diff test.out Test\ Cases/test-program-selection-sort.out
+diff -h
+diff --help
+diff -s test.out Test\ Cases/test-program-selection-sort.out
+nano run.sh
+./run.sh Test\ Cases/test-comment-fun.in 
+./run.sh Test\ Cases/test-comment-fun.in test.out
+./lexer Test\ Cases/test-comment-fun.in test.out
+./lexer Test\ Cases/test-id.in test.out
+./lexer Test\ Cases/test-number.in test.out
+./lexer Test\ Cases/test-symbols.in test.out
+./lexer Test\ Cases/test-keywords.in test.out
+./lexer Test\ Cases/test-stop-on-first-error.in test.out
+ech
+mv To-Do* to-do/
+cd to-do/
+dir
+up

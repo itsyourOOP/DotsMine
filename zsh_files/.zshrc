@@ -197,7 +197,7 @@ echo "remember that rome was not built in a day; pace yourself, don't do everyth
 
 echo 'also here are the things you need to do'
 
-wunderline week
+#wunderline week
 echo '----------------------------------'
 habitipy dailies
 
@@ -223,4 +223,9 @@ source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 export PATH="/home/macrossneurology/.local/bin:$PATH"
 export PATH="/home/macrossneurology/.cargo/bin:$PATH"
-PATH=/home/macrossneurology/bin:/home/macrossneurology/.cargo/bin:/home/macrossneurology/.local/bin:/home/macrossneurology/perl5/bin:/home/macrossneurology/.npm-packages/bin:/root/.gem/ruby/2.3.0/bin:/home/macrossneurology/.gem/ruby/2.7.0/bin:/home/macrossneurology/.cargo/bin:/home/macrossneurology/.local/bin:/home/macrossneurology/perl5/bin:/home/macrossneurology/.npm-packages/bin:/root/.gem/ruby/2.3.0/bin:/home/macrossneurology/.gem/ruby/2.7.0/bin:/usr/local/bin:/usr/local/sbin:/opt/devkitpro/tools/bin:/home/macrossneurology/.cargo/bin:/home/macrossneurology/.local/bin:/home/macrossneurology/perl5/bin:/home/macrossneurology/.npm-packages/bin:/root/.gem/ruby/2.3.0/bin:/home/macrossneurology/.gem/ruby/2.7.0/bin:/usr/bin:/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin://home/macrossneurology/.composer/vendor/bin:.vendor/bin/:/home/macrossneurology/bin://home/macrossneurology/.composer/vendor/bin:.vendor/bin/:/home/macrossneurology/bin:/usr/local/bin://home/macrossneurology/.composer/vendor/bin:.vendor/bin/:/home/macrossneurology/bin:/usr/local/bin
+export PATH="/home/macrossneurology/bin:$PATH"
+export GOPATH=$HOME/go
+PATH="$GOPATH/bin/:$PATH"
+
+
+eval $(thefuck --alias)

@@ -75,3 +75,6 @@ alias calm-ravel="mplayer-radio-stream http://streams.calmradio.com:10328/stream
 #Youtube Audio
 alias mpv-audio="mpv --no-video"
 
+alias songs-that-the-forest-sings="mpv-audio 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmOsn3AnHuqTog5bdQEhAGUV'"
+alias Rainy-Day-Please-Stay="mpv-audio 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmMEeKZJiwxQ_UR-6bpD4iz-'"
+alias another-world="mpv-audio 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmO2V8V3g5iKCczjtNJvx6xn'"
