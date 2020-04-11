@@ -20,6 +20,13 @@ if [ "$choice" = "rand" ]; then
 	choice=$(((RANDOM % 18 ) + 1 ))
 fi
 
+if [ "$choice" = "-Wr" ]; then
+	wpg -m
+fi
+
+if [ "$choice" = "-W" ]; then
+	wpg -s
+fi
 
 case "$choice" in
 
@@ -113,6 +120,8 @@ echo "choice is $choice" >> ~/set_bg.log
 #wal_steam
 ;;
 
+
+
 *) if [ -z "$choice" ]; then
 	echo "No number given"
 	exit 1
@@ -125,6 +134,6 @@ fi
 
 esac
 
-/home/macrossneurology/DotsMine/scripts/polyReload
+$HOME/DotsMine/scripts/polyReload
 
 #bash ~/wal-set
