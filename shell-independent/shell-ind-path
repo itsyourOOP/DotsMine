@@ -1,0 +1,47 @@
+
+
+#PATH
+
+#------------------------------------------------------
+export PATH=$PATH:/$HOME/.composer/vendor/bin:.vendor/bin/:$HOME/bin:/usr/local/bin
+
+#ruby
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+PATH="/root/.gem/ruby/2.3.0/bin:$PATH"
+
+#------------------------------------------------------
+
+# NPM packages
+NPM_PACKAGES="${HOME}/.npm-packages"
+NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+PATH="$NPM_PACKAGES/bin:$PATH"
+
+# Unset manpath so we can inherit from /etc/manpath via the `manpath`
+# # command
+unset MANPATH # delete if you already modified MANPATH elsewhere in your config
+MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+
+#------------------------------------------------------
+
+#perl
+PATH="/home/macrossneurology/perl5/bin${PATH:+:${PATH}}"; export PATH;
+
+#cargo
+export PATH="/home/macrossneurology/.cargo/bin:$PATH"
+
+#execute local bins
+export PATH="/home/macrossneurology/.local/bin:$PATH"
+export PATH="/home/macrossneurology/bin:$PATH"
+
+#go
+export GOPATH=$HOME/go
+PATH="$GOPATH/bin/:$PATH"
+
+#-----------------------------------------------------
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+
+
+
+
+
+

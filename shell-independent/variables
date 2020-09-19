@@ -1,0 +1,23 @@
+#term
+export TERM="xterm-256color"
+export TERMINAL="/usr/bin/kitty"
+
+
+#java
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
+
+#gbdk
+export GBDKDIR=/opt/gbdk/
+
+
+#perl 
+PERL5LIB="/home/macrossneurology/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/macrossneurology/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/macrossneurology/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/macrossneurology/perl5"; export PERL_MM_OPT;
+
+
+#other
+export REDDIO_LIB="$HOME"/.local/share/reddio
+export SDLDIR="/usr/"
+export SDCCDIR="/usr/local"

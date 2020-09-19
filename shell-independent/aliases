@@ -1,5 +1,5 @@
 # from old
-alias yget="yay -S"
+#alias yget="yay -S"
 alias yrem="yay -R"
 alias yrem-con="yay -Rn"
 alias yupdate='~/DotsMine/scripts/update.sh'
@@ -38,7 +38,8 @@ alias git='hub'
 alias edit_zshrc='nano ~/DotsMine/zsh_files/.zshrc'
 alias edit_bashrc='nano ~/DotsMine/bash_files/.bashrc'
 alias accessThoth='ssh azh15@thoth.cs.pitt.edu'
-alias editWallpaper='nano ~/DotsMine/scripts/set-bg'
+alias editWallpaper='nano ~/DotsMine/scripts/set-wal-bg'
+alias editSetBg='nano ~/DotsMine/scripts/set-bg'
 #alias logisim='java -jar ~/College/Sophomore\ Year/Assembly\ Language/Software/logisim-generic-2.7.1.jar'
 #alias MarsMips='java -jar ~/College/Sophomore\ Year/Assembly\ Language/Software/Mars4_5_0447c.jar'
 alias polybar_config='nano ~/.config/polybar/config'
@@ -60,6 +61,7 @@ alias define='googler -n 2 define'
 alias vi='vim'
 alias convert-to-m4a='~/DotsMine/scripts/convert-to-m4a'
 alias wal-discord='wal-discord -b wal -t'
+alias lazyhub="lazyhub && echo '^F to search repositories, to search more than one phrase you must do it like this: phrase1+phrase2+...'"
 
 #Radio Streams
 alias mplayer-radio-stream="mplayer -nocache -afm ffmpeg"
@@ -72,9 +74,24 @@ alias calm-om="mplayer-radio-stream http://streams.calmradio.com:4728/stream"
 alias calm-sleep="mplayer-radio-stream http://streams.calmradio.com:30628/stream"
 alias calm-ravel="mplayer-radio-stream http://streams.calmradio.com:10328/stream"
 
-#Youtube Audio
+##Youtube Audio
 alias mpv-audio="mpv --no-video"
 
+#playlists
 alias songs-that-the-forest-sings="mpv-audio 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmOsn3AnHuqTog5bdQEhAGUV'"
 alias Rainy-Day-Please-Stay="mpv-audio 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmMEeKZJiwxQ_UR-6bpD4iz-'"
 alias another-world="mpv-audio 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmO2V8V3g5iKCczjtNJvx6xn'"
+alias tastes-like-dialup="mpv-audio --shuffle 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmPb4DJfqGnBJTniA6DM6keH'"
+alias tastes-like-dialup-loop="mpv-audio --shuffle --loop-playlist=yes 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmPb4DJfqGnBJTniA6DM6keH'"
+alias tastes-like-being-half-awake-in-old-memories="mpv-audio --shuffle 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmMqNjKhxBcodxOXB9aMblDg'"
+alias speen="mpv-audio  --shuffle --loop-playlist=yes 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmMxfwhJrnjMreoKGJM9blMf'"
+alias forest-at-2-am="mpv-audio --shuffle 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmOOXSQJqoplCY4UEfV2jzu-'"
+alias boa="mpv-audio --shuffle 'https://www.youtube.com/playlist?list=PLIv2Nk2DXJmO4EtJTPrcO5LRizVfgZEbN'"
+
+#single videos
+alias video-man="mpv-audio 'https://www.youtube.com/watch?v=pVddN_nr1CI' --loop=yes"
+
+##Youtube Videos
+alias ah-hes-sick="mpv 'https://www.youtube.com/watch?v=PwdmMZcJDgY'"
+alias wench-ha="mpv 'https://www.youtube.com/watch?v=1xNWM-6tp8w'"
+alias at-night-i-think-of-u="mpv 'https://www.youtube.com/watch?v=3XwzS7THc7Y'"
